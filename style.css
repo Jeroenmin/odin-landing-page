@@ -4,6 +4,8 @@ body {
     min-height: 100vh;
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
   }
   
   .header {
@@ -102,10 +104,23 @@ body {
     align-self: flex-end;
     font-weight: 500;
   }
-  
-  
-  body {
-    display: flex;
-    flex-direction: column;
+
+  .section4 {
+    padding: 100px;
   }
+  
+.call-to-action-box {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding: 48px;
+}
+
+#actionButton  {
+  border-color: #F9FAF8;
+  border: 2px solid white;
+}
+
   
