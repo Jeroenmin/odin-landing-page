@@ -38,9 +38,14 @@ a {
 .section1 {
   background: #1F2937;
   display: flex;
+  justify-content: center;
   padding: 100px;
   gap: 30px;
 
+}
+
+.left-hero {
+  width: 400px;
 }
 
 .main-text {
